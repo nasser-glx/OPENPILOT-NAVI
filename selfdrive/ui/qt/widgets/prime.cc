@@ -159,7 +159,7 @@ PrimeAdWidget::PrimeAdWidget(QWidget* parent) : QFrame(parent) {
   main_layout->setMargin(30);
   main_layout->setSpacing(15);
 
-  main_layout->addWidget(new QLabel("OPKR"), 1, Qt::AlignCenter);
+  main_layout->addWidget(new QLabel("ناصر الخالدي"), 1, Qt::AlignCenter);
 
   QPixmap hkgpix("../assets/addon/img/hkg.png");
   QLabel *hkg = new QLabel();
